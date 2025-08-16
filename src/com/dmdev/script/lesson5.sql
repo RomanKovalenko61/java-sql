@@ -1,7 +1,8 @@
-CREATE TABLE company_storage.company (
-                                         id INT,
-                                         name VARCHAR(128),
-                                         date DATE
+CREATE TABLE company_storage.company
+(
+    id   INT,
+    name VARCHAR(128),
+    date DATE
 );
 
 -- DROP TABLE public.company;
