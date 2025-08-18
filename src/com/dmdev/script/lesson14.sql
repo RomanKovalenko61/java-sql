@@ -30,6 +30,8 @@ CREATE TABLE employee
 
 DROP TABLE employee;
 
+INSERT INTO company(id, name, date) VALUES (2, 'Apple', '2002-10-29');
+
 INSERT INTO employee(first_name, last_name, salary, company_id)
 VALUES ('Ivan', 'Sidorov', 500, 1),
        ('Ivan', 'Ivanov', 1000, 2),
