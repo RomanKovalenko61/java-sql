@@ -23,6 +23,9 @@ FROM ticket
 WHERE seat_no = 'B1'
   AND flight_id = 5; -- Maybe Index
 
-SELECT count(distinct flight_id) FROM ticket; -- 9
-SELECT count(flight_id) FROM ticket; -- 55
+SELECT count(distinct flight_id)
+FROM ticket; -- 9
+SELECT count(flight_id)
+FROM ticket;
+-- 55
 --  Селективность 9 / 55 = 0.163 плохая ниже 20 процентов. Ближе к 1 самое то
